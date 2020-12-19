@@ -316,6 +316,7 @@ struct Zadluzenie
   {
     lista_kredytow[liczba_kredytow]=new Kredyt{r,t};
     liczba_kredytow++;
+    cout << "Kredyt przyznany\n";
   }
 
   double suma_zadluzenia()
